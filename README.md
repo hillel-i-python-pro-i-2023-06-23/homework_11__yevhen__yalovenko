@@ -1,10 +1,10 @@
 # Django application
 
 ---
-[![Main workflow](https://github.com/hillel-i-python-pro-i-2023-06-23/homework_10__yevhen__yalovenko/actions/workflows/main-workflow.yml/badge.svg)](https://github.com/hillel-i-python-pro-i-2023-06-23/homework_10__yevhen__yalovenko/actions/workflows/main-workflow.yml)
+[![Main workflow](https://github.com/hillel-i-python-pro-i-2023-06-23/homework_11__yevhen__yalovenko/actions/workflows/main-workflow.yml/badge.svg)](https://github.com/hillel-i-python-pro-i-2023-06-23/homework_11__yevhen__yalovenko/actions/workflows/main-workflow.yml)
 ## 🏠 Homework
 
-Homework-10__Yevhen__Yalovenko.
+Homework-11__Yevhen__Yalovenko.
 
 ### ▶️ Run
 
