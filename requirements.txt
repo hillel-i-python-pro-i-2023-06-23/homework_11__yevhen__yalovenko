@@ -1,7 +1,9 @@
 # Core for web.
 django==4.2.3
-# For generate pet names
-faker==19.1.0
+# For add phone number to Contact model
+django-phone-field==1.8.1
+# For generate data
+faker==19.2.0
 # [code_style]-[BEGIN]
 # Pre-commit hook.
 pre-commit==3.3.3
