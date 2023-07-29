@@ -19,4 +19,5 @@ from django.urls import path, include
 urlpatterns = [
     path("", include("apps.base.urls")),
     path("", include("apps.homework.urls")),
+    path("contacts/", include("apps.contacts.urls")),
 ]
