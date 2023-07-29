@@ -1,7 +1,5 @@
 # Core for web.
 django==4.2.3
-# For add phone number to Contact model
-django-phone-field==1.8.1
 # For generate data
 faker==19.2.0
 # [code_style]-[BEGIN]
