@@ -1,10 +1,10 @@
-# Django application
+# Flask application
 
 ---
 [![Main workflow](https://github.com/hillel-i-python-pro-i-2023-06-23/homework_11__yevhen__yalovenko/actions/workflows/main-workflow.yml/badge.svg)](https://github.com/hillel-i-python-pro-i-2023-06-23/homework_11__yevhen__yalovenko/actions/workflows/main-workflow.yml)
 ## 🏠 Homework
 
-Homework-11__Yevhen__Yalovenko.
+Yevhen_Yalovenko homework-12
 
 ### ▶️ Run
 
@@ -42,6 +42,17 @@ Configure homework.
 make init-configs
 ```
 
+Make migrations
+
+```shell
+make migrations
+```
+
+Migrate
+
+```shell
+make migrate
+```
 ---
 
 ## 🐳 Docker
