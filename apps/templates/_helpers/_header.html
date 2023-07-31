@@ -1,5 +1,6 @@
 <style>
     .button-container{
+        margin-top: 10px;
         display: flex;
         flex-wrap: wrap;
     }
@@ -32,9 +33,9 @@
     {#            <form action="{% url 'contacts:view_contact' %}">#}
     {#                <button type="submit">View Contact</button>#}
     {#            </form>#}
-    {#            <form action="{% url 'contacts:update_contact' %}">#}
-    {#                <button type="submit">Update Contact</button>#}
-    {#            </form>#}
+                <form action="{% url 'contacts:update_contact' %}">
+                    <button type="submit">Update Contact</button>
+                </form>
                 <form action="{% url 'contacts:delete_contact' %}">
                     <button type="submit">Delete Contact</button>
                 </form>
