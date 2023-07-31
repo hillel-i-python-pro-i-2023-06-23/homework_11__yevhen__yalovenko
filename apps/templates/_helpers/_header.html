@@ -18,5 +18,19 @@
                 Contacts list
             </a>
         </li>
+        {% if request.path == '/contacts/list/' %}
+            <form action="{% url 'contacts:create_contact' %}">
+                <button type="submit">Create Contact</button>
+            </form>
+{#            <form action="{% url 'contacts:view_contact' %}">#}
+{#                <button type="submit">View Contact</button>#}
+{#            </form>#}
+{#            <form action="{% url 'contacts:update_contact' %}">#}
+{#                <button type="submit">Update Contact</button>#}
+{#            </form>#}
+{#            <form action="{% url 'contacts:create_contact' %}">#}
+{#                <button type="submit">Delete Contact</button>#}
+{#            </form>#}
+        {% endif %}
     </ul>
 </header>
