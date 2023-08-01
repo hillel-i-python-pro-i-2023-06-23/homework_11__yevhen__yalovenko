@@ -30,9 +30,9 @@
                 <form action="{% url 'contacts:create_contact' %}">
                     <button type="submit">Create Contact</button>
                 </form>
-    {#            <form action="{% url 'contacts:view_contact' %}">#}
-    {#                <button type="submit">View Contact</button>#}
-    {#            </form>#}
+                <form action="{% url 'contacts:search_contact' %}">
+                    <button type="submit">Search Contact</button>
+                </form>
                 <form action="{% url 'contacts:update_contact' %}">
                     <button type="submit">Update Contact</button>
                 </form>
