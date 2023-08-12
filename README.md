@@ -1,10 +1,10 @@
-# Flask application
+# Django application
 
 ---
 [![Main workflow](https://github.com/hillel-i-python-pro-i-2023-06-23/homework_11__yevhen__yalovenko/actions/workflows/main-workflow.yml/badge.svg)](https://github.com/hillel-i-python-pro-i-2023-06-23/homework_11__yevhen__yalovenko/actions/workflows/main-workflow.yml)
 ## 🏠 Homework
 
-Yevhen_Yalovenko homework-12
+Yevhen_Yalovenko homework-13
 
 ### ▶️ Run
 
