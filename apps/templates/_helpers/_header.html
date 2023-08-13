@@ -21,26 +21,9 @@
             </a>
         </li>
                 <li>
-            <a href="{% url 'contacts:contacts_list' %}" style="color: blue">
+            <a href="{% url 'contacts:contact_list' %}" style="color: blue">
                 Contacts list
             </a>
         </li>
-        {% if request.path == '/contacts/list/' %}
-            <div class="button-container">
-                <form action="{% url 'contacts:create_contact' %}">
-                    <button type="submit">Create Contact</button>
-                </form>
-                <form action="{% url 'contacts:search_contact' %}">
-                    <button type="submit">Search Contact</button>
-                </form>
-                <form action="{% url 'contacts:update_contact' %}">
-                    <button type="submit">Update Contact</button>
-                </form>
-                <form action="{% url 'contacts:delete_contact' %}">
-                    <button type="submit">Delete Contact</button>
-                </form>
-            </div>
-
-        {% endif %}
     </ul>
 </header>
